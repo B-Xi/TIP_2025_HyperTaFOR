@@ -1,0 +1,12 @@
+{
+  "mlp_head_dim": 8,
+  "depth": 1,
+  "dim": 64,
+  "heads": 8,
+  "kernal": 5,
+  "padding": 2,
+  "dropout": 0,
+  "topk": 24,
+  "spectral_size": 100,
+  "patch": 13
+}
