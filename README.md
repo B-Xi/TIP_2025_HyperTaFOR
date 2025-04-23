@@ -22,7 +22,7 @@ The code will be available online at https://github.com/B-Xi/TIP_2025_HyperTaFOR
 --
 If you find this code helpful, please kindly cite:
 
-[1] Xi, B., Zhang, W., Li, J., Song, R., & Li, Y., "HyperTaFOR: Task-adaptive Few-shot Open-set Recognition With Spatial-spectral Selective Transformer for Hyperspectral Imagery" in IEEE Transactions on Image Processing, vol. 34, pp. 854-868, 2025, doi: 10.1109/TIP.2025.3555069.
+[1] Xi, B., Zhang, W., Li, J., Song, R., & Li, Y., "HyperTaFOR: Task-adaptive Few-shot Open-set Recognition With Spatial-spectral Selective Transformer for Hyperspectral Imagery" in IEEE Transactions on Image Processing, Accepted, 2025, doi: 10.1109/TIP.2025.3555069.
 
 Citation Details
 --
@@ -33,9 +33,9 @@ BibTeX entry:
   journal={IEEE Transactions on Image Processing}, 
   title={HyperTaFOR: Task-adaptive Few-shot Open-set Recognition With Spatial-spectral Selective Transformer for Hyperspectral Imagery}, 
   year={2025},
-  volume={34},
+  volume={},
   number={},
-  pages={854-868},
+  pages={},
   doi={10.1109/TIP.2025.3555069}}
 ```
  
