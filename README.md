@@ -27,7 +27,7 @@ Citation Details
 --
 BibTeX entry:
 ```
-@ARTICLE{TIP_2025_TEFSL,
+@ARTICLE{TIP_2025_HyperTaFOR,
   author={Xi, Bobo and Zhang, Wenjie and Li, Jiaojiao and Song, Rui and Li, Yunsong},
   journal={IEEE Transactions on Image Processing}, 
   title={HyperTaFOR: Task-adaptive Few-shot Open-set Recognition With Spatial-spectral Selective Transformer for Hyperspectral Imagery}, 
