@@ -21,20 +21,21 @@ To tackle these challenges, we introduce a few-shot OSR framework for HSI named 
 --
 If you find this code helpful, please kindly cite:
 
-[1] Xi, B., Zhang, W., Li, J., Song, R., & Li, Y., "HyperTaFOR: Task-adaptive Few-shot Open-set Recognition With Spatial-spectral Selective Transformer for Hyperspectral Imagery" in IEEE Transactions on Image Processing, Accepted, 2025, doi: 10.1109/TIP.2025.3555069.
+[1] Xi, B., Zhang, W., Li, J., Song, R., & Li, Y., "HyperTaFOR: Task-adaptive Few-shot Open-set Recognition With Spatial-spectral Selective Transformer for Hyperspectral Imagery", IEEE Transactions on Image Processing, 34: 4148-4160 (2025). DOI: 10.1109/TIP.2025.3555069.
 
 Citation Details
 --
 BibTeX entry:
 ```
 @ARTICLE{TIP_2025_HyperTaFOR,
-  author={Xi, Bobo and Zhang, Wenjie and Li, Jiaojiao and Song, Rui and Li, Yunsong},
+ author={Xi, Bobo and Zhang, Wenjie and Li, Jiaojiao and Song, Rui and Li, Yunsong},
   journal={IEEE Transactions on Image Processing}, 
-  title={HyperTaFOR: Task-adaptive Few-shot Open-set Recognition With Spatial-spectral Selective Transformer for Hyperspectral Imagery}, 
+  title={HyperTaFOR: Task-Adaptive Few-Shot Open-Set Recognition With Spatial-Spectral Selective Transformer for Hyperspectral Imagery}, 
   year={2025},
-  volume={},
+  volume={34},
   number={},
-  pages={},
+  pages={4148-4160},
+  keywords={Training;Metalearning;Image recognition;Prototypes;Training data;Transformers;Feature extraction;Spatial databases;Image reconstruction;Hyperspectral imaging;Open-set recognition;hyperspectral image;few-shot;negative prototype generation;transformer},
   doi={10.1109/TIP.2025.3555069}}
 ```
  
