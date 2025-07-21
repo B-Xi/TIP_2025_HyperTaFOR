@@ -11,31 +11,36 @@ Fig. 1: The architecture of the proposed HyperTaFOR for HSI FSOSR.
 ## Abstract
 Open set recognition (OSR) aims to accurately classify known categories while effectively rejecting unknown negative samples. Existing methods for OSR in hyperspectral images (HSI) can be generally divided into two categories: reconstruction-based and distance-based methods. Reconstruction-based approaches focus on analyzing reconstruction errors during inference, whereas distance-based methods determine the rejection of unknown samples by measuring their distance to each prototype. However, these techniques often require a substantial amount of training data, which can be both time-consuming and expensive to gather, and they require manual threshold setting, which can be difficult for different tasks. Furthermore, effectively utilizing spectral-spatial information in HSI remains a significant challenge, particularly in open-set scenarios. 
 To tackle these challenges, we introduce a few-shot OSR framework for HSI named HyperTaFOR, which incorporates a novel spatial-spectral selective transformer (S3Former). This framework employs a meta-learning strategy to implement a negative prototype generation module (NPGM) that generates task-adaptive rejection scores, allowing flexible categorization of samples into various known classes and anomalies for each task. Additionally, the S3Former is designed to extract spectral-spatial features, optimizing the use of central pixel information while reducing the impact of irrelevant spatial data. Comprehensive experiments conducted on three benchmark hyperspectral datasets show that our proposed method delivers competitive classification and detection performance in open-set environments when compared to state-of-the-art methods. 
+The code will be available online at https://github.com/B-Xi/TIP_2025_HyperTaFOR.
+
+## Requirements
+To install requirements:
+1. conda env create -f environment.yaml
+2. pip install einops=3.8.0
 
 ## Training and Test Process
-1. Please prepare the training and test data as described in the paper. And the websites to access the datasets are also provided. The OCBS band selection method used is referred to as https://github.com/tanmlh
+1. Please prepare the training and test data as operated in the paper. And the websites to access the datasets are also provided. The used OCBS band selection method is referred to https://github.com/tanmlh
 2. Run "trainMetaDataProcess.py" to generate the meta-training data
-3. Run the 'main.py' to reproduce the HyperTaFOR results on the PC dataset.
+3. Run the 'main_paviac.py' to reproduce the HyperTaFOR results on PC data set.
 
 ## References
 --
 If you find this code helpful, please kindly cite:
 
-[1] Xi, B., Zhang, W., Li, J., Song, R., & Li, Y., "HyperTaFOR: Task-adaptive Few-shot Open-set Recognition With Spatial-spectral Selective Transformer for Hyperspectral Imagery", IEEE Transactions on Image Processing, 34: 4148-4160 (2025). DOI: 10.1109/TIP.2025.3555069.
+[1] Xi, B., Zhang, W., Li, J., Song, R., & Li, Y., "HyperTaFOR: Task-adaptive Few-shot Open-set Recognition With Spatial-spectral Selective Transformer for Hyperspectral Imagery" in IEEE Transactions on Image Processing, vol. 34, pp. 854-868, 2025, doi: 10.1109/TIP.2025.3555069.
 
 Citation Details
 --
 BibTeX entry:
 ```
-@ARTICLE{TIP_2025_HyperTaFOR,
- author={Xi, Bobo and Zhang, Wenjie and Li, Jiaojiao and Song, Rui and Li, Yunsong},
+@ARTICLE{TIP_2025_TEFSL,
+  author={Xi, Bobo and Zhang, Wenjie and Li, Jiaojiao and Song, Rui and Li, Yunsong},
   journal={IEEE Transactions on Image Processing}, 
-  title={HyperTaFOR: Task-Adaptive Few-Shot Open-Set Recognition With Spatial-Spectral Selective Transformer for Hyperspectral Imagery}, 
+  title={HyperTaFOR: Task-adaptive Few-shot Open-set Recognition With Spatial-spectral Selective Transformer for Hyperspectral Imagery}, 
   year={2025},
   volume={34},
   number={},
-  pages={4148-4160},
-  keywords={Training;Metalearning;Image recognition;Prototypes;Training data;Transformers;Feature extraction;Spatial databases;Image reconstruction;Hyperspectral imaging;Open-set recognition;hyperspectral image;few-shot;negative prototype generation;transformer},
+  pages={854-868},
   doi={10.1109/TIP.2025.3555069}}
 ```
  
